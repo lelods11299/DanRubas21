@@ -1,0 +1,216 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link
+      href="https://fonts.googleapis.com/icon?family=Material+Icons"
+      rel="stylesheet"
+    />
+
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/materialize/1.0.0/css/materialize.min.css"
+    />
+
+    <!-- Compiled and minified JavaScript -->
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/materialize/1.0.0/js/materialize.min.js"></script>
+    <!-- Icons -->
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css"
+    />
+    <style>
+      h1,
+      h2,
+      h3,
+      h4,
+      h5,
+      h6 {
+        font-weight: 250;
+      }
+    </style>
+    <title>Grid</title>
+  </head>
+  <body class="grey-lighten-4 grey-text text-darken-3">
+    <h1 class="red-text text-lighten center">Grid</h1>
+    <div class="divider"></div>
+
+    <div class="container">
+      <div class="row">
+        <div class="col s10">
+          <p>
+            You'll notice that there are two sets of the files. The min means
+            that the file is "compressed" to reduce load times. These minified
+            files are usually used in production while it is better to use the
+            unminified files during development.
+          </p>
+          <!-- container -->
+          <h2 class="red-text text-lighten-2">Container</h2>
+          <p>
+            The container class is not strictly part of the grid but is
+            important in laying out content. It allows you to center your page
+            content. The container class is set to ~70% of the window width. It
+            helps you center and contain your page content. We use the container
+            to contain our body content.
+          </p>
+          <!-- demo -->
+          <p class="flow-text">Demo</p>
+          <p>
+            Try the button below to see what the page looks like without
+            containers.
+          </p>
+          <p>
+            To add a container just put your content inside a div tag with a
+            container class. Here's an example of how your page might be set up.
+          </p>
+          <button class="btn">Turn in Container</button>
+          <br /><br />
+          <img src="pic1.jpg" style="width: 50%; height: 50%" alt="" />
+          <br /><br />
+          <p>
+            To add a container just put your content inside a div tag with a
+            container class. Here's an example of how your page might be set up.
+          </p>
+        </div>
+      </div>
+      <!-- Introduction -->
+
+      <h2 class="red-text text-lighten-2">Introduction</h2>
+      <p></p>
+      <p class="flow-text">12 Columns</p>
+      <p></p>
+      <!-- row -->
+      <div class="row">
+        <div class="col s12 m6 l1">
+          <div class="card-panel orange darken-4">
+            <i class="fa fa-car white-text"></i>
+          </div>
+        </div>
+        <div class="col s12 m6 l1">
+          <div class="card-panel orange darken-4">
+            <i class="fa fa-car white-text"></i>
+          </div>
+        </div>
+        <div class="col s12 m6 l1">
+          <div class="card-panel orange darken-4">
+            <i class="fa fa-car white-text"></i>
+          </div>
+        </div>
+        <div class="col s12 m6 l1">
+          <div class="card-panel orange darken-4">
+            <i class="fa fa-car white-text"></i>
+          </div>
+        </div>
+        <div class="col s12 m6 l1">
+          <div class="card-panel orange darken-4">
+            <i class="fa fa-car white-text"></i>
+          </div>
+        </div>
+        <div class="col s12 m6 l1">
+          <div class="card-panel orange darken-4">
+            <i class="fa fa-car white-text"></i>
+          </div>
+        </div>
+        <div class="col s12 m6 l1">
+          <div class="card-panel orange darken-4">
+            <i class="fa fa-car white-text"></i>
+          </div>
+        </div>
+        <div class="col s12 m6 l1">
+          <div class="card-panel orange darken-4">
+            <i class="fa fa-car white-text"></i>
+          </div>
+        </div>
+        <div class="col s12 m6 l1">
+          <div class="card-panel orange darken-4">
+            <i class="fa fa-car white-text"></i>
+          </div>
+        </div>
+        <div class="col s12 m6 l1">
+          <div class="card-panel orange darken-4">
+            <i class="fa fa-car white-text"></i>
+          </div>
+        </div>
+        <div class="col s12 m6 l1">
+          <div class="card-panel orange darken-4">
+            <i class="fa fa-car white-text"></i>
+          </div>
+        </div>
+        <div class="col s12 m6 l1">
+          <div class="card-panel orange darken-4">
+            <i class="fa fa-car white-text"></i>
+          </div>
+        </div>
+      </div>
+      <p>
+        Note: For now, just know that the s1 stands for small-1 which in plain
+        English means "1 column on small screens".
+      </p>
+      <!-- end of column -->
+      <p class="flow-text">Columns live inside Rows</p>
+      <p>
+        Remember when you are creating your layout that all columns must be
+        contained inside a row and that you must add the col class to your inner
+        divs to make them into columns
+      </p>
+    </div>
+    <div class="container">
+      <div class="row">
+        <div class="row">
+          <div class="col s6">
+            <div class="card-panel orange darken-4 white-text">
+              6-columns (one-half)
+            </div>
+          </div>
+          <div class="col s12">
+            <div class="card-panel orange darken-4 white-text">
+              This div is 12-columns wide on all screen sizes
+            </div>
+          </div>
+          <div class="col s6">
+            <div class="card-panel orange darken-4 white-text">
+              6-columns (one-half)
+            </div>
+          </div>
+          <div class="col s6 offset-s6">
+            <div class="card-panel orange darken-4 white-text">
+              6-columns (offset-by-6)
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+
+    <!-- <div class="row">
+      <div class="col s10">
+        <div class="col s12">
+          <div class="card-panel orange darken-4 white-text">
+            6-columns (one-half)
+          </div>
+        </div>
+        <div class="col s6 offset-s6">
+          <div class="card-panel orange darken-4 white-text">
+            6-columns (one-half)
+          </div>
+        </div>
+        <div class="col s12">
+          <div class="card-panel orange darken-4 white-text">
+            6-columns (one-half)
+          </div>
+        </div>
+      </div>
+    </div> -->
+
+    <div style="height: 1000px"></div>
+    <script
+      src="https://code.jquery.com/jquery-3.7.0.min.js"
+      integrity="sha256-2Pmvv0kuTBOenSvLm6bvfBSSHrUJ+3A7x6P5Ebd07/g="
+      crossorigin="anonymous"
+    ></script>
+    <!--Compiled and minified Javascript-->
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/materialize/1.0.0/js/materialize.min.js"></script>
+  </body>
+</html>

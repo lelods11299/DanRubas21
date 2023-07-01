@@ -1,0 +1,116 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta names="viewport" content="width=device-width, initial-scale=1.0" />
+    <!-- Compiled and minified CSS -->
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/materialize/1.0.0/css/materialize.min.css"
+    />
+
+    <link
+      href="https://fonts.googleapis.com/icon?family=Material+Icons"
+      rel="stylesheet"
+    />
+
+    <title>Navbar & Sidenav</title>
+  </head>
+  <body>
+    <!--Navbar-->
+    <div class="navbar-fixed">
+      <nav class="teal lighten-2">
+        <div class="container">
+          <a href="" class="brand-logo">Lorem Impsum</a>
+          <ul id="nav-mobile" class="right hide-on-med-and-down">
+            <li><a href="index.html">Home</a></li>
+            <li class="active"><a href="">About</a></li>
+            <li><a href="">Contact</a></li>
+            <!--Dropdown Trigger-->
+            <li>
+              <a class="dropdown-trigger" href="#!" data-target="dropdown1">
+                <i class="material-icons">arrow_drop_down</i>
+              </a>
+            </li>
+          </ul>
+        </div>
+      </nav>
+      <!--Dropdown Structure-->
+      <ul id="dropdown1" class="dropdown-content">
+        <li>
+          <a href="#!">Jimmy Butleg</a>
+        </li>
+        <li class="divider"></li>
+        <li>
+          <a href="#!">Kobe Bisaya</a>
+        </li>
+        <li class="divider"></li>
+        <li>
+          <a href="#!">Lebron Germs</a>
+        </li>
+        <li class="divider"></li>
+        <li>
+          <a href="#!">Paul LeeBag</a>
+        </li>
+      </ul>
+    </div>
+
+    <!--Sidenav-->
+    <ul id="slide-out" class="sidenav">
+      <li>
+        <div class="user-view">
+          <div class="background">
+            <img src="pic3.jpg" />
+          </div>
+          <a href="#user"><img class="circle" src="pic4.jpg" /></a>
+          <a href="#name"
+            ><span class="black-text name">Dan Gerson Rubas</span></a
+          >
+          <a href="#email"
+            ><span class="black-text email">dandanrubas723@gmail.com</span></a
+          >
+        </div>
+      </li>
+      <li class="divider"></li>
+      <li>
+        <a href="index.html">Home</a>
+      </li>
+      <li class="active">
+        <a href="navbar-sidenav.html">About</a>
+      </li>
+      <li>
+        <a href="table-media.html">Contact Us</a>
+      </li>
+      <li>
+        <a href="" class="dropdown-trigger" data-target="dropdown-contact">
+          <i class="material-icons">arrow_drop_down</i>
+        </a>
+      </li>
+    </ul>
+    <a href="#" data-target="slide-out" class="sidenav-trigger"
+      ><i class="material-icons">menu</i></a
+    >
+
+    <!-- JQuery CDN -->
+    <script
+      src="https://code.jquery.com/jquery-3.7.0.js"
+      integrity="sha256-JlqSTELeR4TLqP0OG9dxM7yDPqX1ox/HfgiSLBj8+kM="
+      crossorigin="anonymous"
+    ></script>
+    <!-- Compiled and minified JavaScript -->
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/materialize/1.0.0/js/materialize.min.js"></script>
+
+    <!--Navbar Dropdown-->
+    <script>
+      $(".dropdown-trigger").dropdown();
+    </script>
+
+    <!--Sidenav Script-->
+    <script>
+      $(document).ready(function () {
+        $(".sidenav").sidenav();
+      });
+    </script>
+  </body>
+</html>

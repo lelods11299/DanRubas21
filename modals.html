@@ -1,0 +1,353 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link
+      href="https://fonts.googleapis.com/icon?family=Material+Icons"
+      rel="stylesheet"
+    />
+
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/materialize/1.0.0/css/materialize.min.css"
+    />
+
+    <!-- Compiled and minified JavaScript -->
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/materialize/1.0.0/js/materialize.min.js"></script>
+    <!-- Icons -->
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css"
+    />
+    <title>Modals</title>
+    <style>
+      .center {
+        position: absolute;
+        top: 50%;
+        left: 50%;
+        transform: translate(-50%, -50%);
+        padding: 10px;
+      }
+
+      li {
+        width: 10%;
+        height: 20%;
+      }
+      img {
+        height: auto;
+      }
+    </style>
+  </head>
+  <body>
+    <div class="parallax-container">
+      <div class="parallax"><img src="pic2.jpg" /></div>
+    </div>
+    <div class="section white">
+      <div class="row container">
+        <h2 class="header">Parallax</h2>
+        <p class="grey-text text-darken-3 lighten-3">
+          Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do
+          eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad
+          minim veniam, quis nostrud exercitation ullamco laboris nisi ut
+          aliquip ex ea commodo consequat. Duis aute irure dolor in
+          reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla
+          pariatur
+        </p>
+      </div>
+    </div>
+    <div class="parallax-container">
+      <div class="parallax"><img src="pic1.jpg" /></div>
+    </div>
+
+    <!-- Modal Table -->
+
+    <div id="modal1" class="modal">
+      <div class="modal-content">
+        <h1 class="purple lighten-3">Table & Media</h1>
+        <table class="purple lighten-3">
+          <thead>
+            <tr>
+              <th>Name</th>
+              <th>Item Name</th>
+              <th>Item Price</th>
+            </tr>
+          </thead>
+          <tbody>
+            <tr>
+              <td>Alvin</td>
+              <td>Eclair</td>
+              <td>$3.76</td>
+            </tr>
+            <tr>
+              <td>Alan</td>
+              <td>Jellybean</td>
+              <td>$8.76</td>
+            </tr>
+            <tr>
+              <td>Jonathan</td>
+              <td>Lollipop</td>
+              <td>$7.88</td>
+            </tr>
+          </tbody>
+        </table>
+      </div>
+      <div class="modal-footer">
+        <a href="#!" class="modal-close waves-effect waves-green btn-flat"
+          >Exit</a
+        >
+      </div>
+    </div>
+    <!--  -->
+    <!-- Modal Trigger -->
+
+    <!-- Modal Slider-->
+    <div id="modal2" class="modal">
+      <div class="modal-content">
+        <div class="container">
+          <div class="row">
+            <div class="col s12">
+              <div class="slider">
+                <ul class="slides">
+                  <li>
+                    <img src="pic1.jpg" alt="" />
+                    <div class="caption center-align">
+                      <h2>FLowers</h2>
+                      <h4 class="teal-text text-teal darken-4">Picture 1</h4>
+                    </div>
+                  </li>
+                  <li>
+                    <img src="pic2.jpg" alt="" />
+                    <div class="caption center-align">
+                      <h2>Ocean</h2>
+                      <h4 class="teal-text text-lighten-4">Picture 2</h4>
+                    </div>
+                  </li>
+                  <li>
+                    <img src="pic3.jpg" alt="" />
+                    <div class="caption center-align">
+                      <h2>Mountains</h2>
+                      <h4 class="teal-text text-lighten-4">Picture 3</h4>
+                    </div>
+                  </li>
+                  <li>
+                    <img src="pic4.jpg" alt="" />
+                    <div class="caption center-align">
+                      <h2>Sigma</h2>
+                      <h4 class="teal-text text-lighten-4">Picture 4</h4>
+                    </div>
+                  </li>
+                </ul>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+      <div class="modal-footer">
+        <a href="#!" class="modal-close waves-effect waves-green btn-flat"
+          >Agree</a
+        >
+      </div>
+    </div>
+
+    <!-- Modal Card -->
+
+    <div id="modal3" class="modal">
+      <div class="modal-content">
+        <div class="container">
+          <div class="row">
+            <div class="col s10">
+              <p>
+                You'll notice that there are two sets of the files. The min
+                means that the file is "compressed" to reduce load times. These
+                minified files are usually used in production while it is better
+                to use the unminified files during development.
+              </p>
+              <!-- container -->
+              <h2 class="red-text text-lighten-2">Container</h2>
+              <p>
+                The container class is not strictly part of the grid but is
+                important in laying out content. It allows you to center your
+                page content. The container class is set to ~70% of the window
+                width. It helps you center and contain your page content. We use
+                the container to contain our body content.
+              </p>
+              <!-- demo -->
+              <p class="flow-text">Demo</p>
+              <p>
+                Try the button below to see what the page looks like without
+                containers.
+              </p>
+              <p>
+                To add a container just put your content inside a div tag with a
+                container class. Here's an example of how your page might be set
+                up.
+              </p>
+              <button class="btn">Turn in Container</button>
+              <br /><br />
+              <img src="pic1.jpg" style="width: 50%; height: 50%" alt="" />
+              <br /><br />
+              <p>
+                To add a container just put your content inside a div tag with a
+                container class. Here's an example of how your page might be set
+                up.
+              </p>
+            </div>
+          </div>
+          <!-- Introduction -->
+
+          <h2 class="red-text text-lighten-2">Introduction</h2>
+          <p></p>
+          <p class="flow-text">12 Columns</p>
+          <p></p>
+          <!-- row -->
+          <div class="row">
+            <div class="col s12 m6 l1">
+              <div class="card-panel orange darken-4">
+                <i class="fa fa-car white-text"></i>
+              </div>
+            </div>
+            <div class="col s12 m6 l1">
+              <div class="card-panel orange darken-4">
+                <i class="fa fa-car white-text"></i>
+              </div>
+            </div>
+            <div class="col s12 m6 l1">
+              <div class="card-panel orange darken-4">
+                <i class="fa fa-car white-text"></i>
+              </div>
+            </div>
+            <div class="col s12 m6 l1">
+              <div class="card-panel orange darken-4">
+                <i class="fa fa-car white-text"></i>
+              </div>
+            </div>
+            <div class="col s12 m6 l1">
+              <div class="card-panel orange darken-4">
+                <i class="fa fa-car white-text"></i>
+              </div>
+            </div>
+            <div class="col s12 m6 l1">
+              <div class="card-panel orange darken-4">
+                <i class="fa fa-car white-text"></i>
+              </div>
+            </div>
+            <div class="col s12 m6 l1">
+              <div class="card-panel orange darken-4">
+                <i class="fa fa-car white-text"></i>
+              </div>
+            </div>
+            <div class="col s12 m6 l1">
+              <div class="card-panel orange darken-4">
+                <i class="fa fa-car white-text"></i>
+              </div>
+            </div>
+            <div class="col s12 m6 l1">
+              <div class="card-panel orange darken-4">
+                <i class="fa fa-car white-text"></i>
+              </div>
+            </div>
+            <div class="col s12 m6 l1">
+              <div class="card-panel orange darken-4">
+                <i class="fa fa-car white-text"></i>
+              </div>
+            </div>
+            <div class="col s12 m6 l1">
+              <div class="card-panel orange darken-4">
+                <i class="fa fa-car white-text"></i>
+              </div>
+            </div>
+            <div class="col s12 m6 l1">
+              <div class="card-panel orange darken-4">
+                <i class="fa fa-car white-text"></i>
+              </div>
+            </div>
+          </div>
+          <p>
+            Note: For now, just know that the s1 stands for small-1 which in
+            plain English means "1 column on small screens".
+          </p>
+          <!-- end of column -->
+          <p class="flow-text">Columns live inside Rows</p>
+          <p>
+            Remember when you are creating your layout that all columns must be
+            contained inside a row and that you must add the col class to your
+            inner divs to make them into columns
+          </p>
+        </div>
+      </div>
+      <div class="modal-footer">
+        <a href="#!" class="modal-close waves-effect waves-green btn-flat"
+          >Exit</a
+        >
+      </div>
+    </div>
+
+    <!-- Modal Trigger -->
+    <div class="center">
+      <div class="row">
+        <div class="col">
+          <button
+            data-target="modal1"
+            class="btn modal-trigger purple lighten-3 btn-large"
+          >
+            Modal Table
+          </button>
+        </div>
+        <div class="col">
+          <button data-target="modal2" class="btn modal-trigger btn-large">
+            Modal Slider
+          </button>
+        </div>
+        <div class="col">
+          <button
+            data-target="modal3"
+            class="btn modal-trigger blue lighten-1 btn-large"
+          >
+            Modal Content
+          </button>
+        </div>
+      </div>
+    </div>
+    <script
+      src="https://code.jquery.com/jquery-3.7.0.min.js"
+      integrity="sha256-2Pmvv0kuTBOenSvLm6bvfBSSHrUJ+3A7x6P5Ebd07/g="
+      crossorigin="anonymous"
+    ></script>
+    <!--Compiled and minified Javascript-->
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/materialize/1.0.0/js/materialize.min.js"></script>
+    <script>
+      $(document).ready(function () {
+        // Initialize materialbox
+        $(".materialboxed").materialbox({
+          inDuration: 1000,
+          outDuration: 1000,
+        });
+        // Init slider
+        $(".slider").slider({
+          indicators: false,
+          height: 1700,
+          duration: 500,
+          interval: 1000,
+        });
+      });
+    </script>
+    <script>
+      document.addEventListener("DOMContentLoaded", function () {
+        var elems = document.querySelectorAll(".modal");
+        var instances = M.Modal.init(elems, options);
+      });
+
+      // Or with jQuery
+
+      $(document).ready(function () {
+        $(".modal").modal();
+      });
+      $(document).ready(function () {
+        $(".parallax").parallax();
+      });
+    </script>
+  </body>
+</html>
